@@ -1,0 +1,245 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+} 
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open sans',sans-serif;
+   height: auto;
+   width: 100%;
+   overflow-x: hidden;
+}
+.Pembuka {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: Courier;
+    color: rgb(77, 64, 64);
+}
+.menu {
+    float: right;
+    margin-bottom: 10px;
+}
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+    border-bottom: 1px solid rgb(140, 108, 108);
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li {
+    float: left;
+}
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+    color: white;
+    background-color: black;
+}
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+section img {
+    width: 700px;
+    
+}
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comis sans ms';
+    color: black;
+}
+h3 {
+    margin-left: 20px;
+}
+h2 {
+    font-family: 'comic sans ms';
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: black;
+    width: 100%;
+    line-height: 50px;
+    margin-left: 20px;
+}
+a.Simbol {
+    background: rgb(58, 43, 85);
+    border-radius: 30px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+a.Simbol:hover {
+    background: rgb(69, 69, 133);
+    text-decoration: none;
+}
+a.Simbol2 {
+    background: rgb(58, 43, 85);
+    border-radius: 30px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+a.Simbol2:hover {
+    background: rgb(69, 69, 133);
+    text-decoration: none;
+}
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+.kolom2 {
+    margin-top:auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+}
+.kolom2 .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: black;
+    
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: 800;
+    font-family: 'comic sans ms';
+    margin-bottom: 20px;
+    color: black;
+    width: 100%;
+    line-height: 50px;
+}
+
+p {
+    margin: 10px 0px 10px 0;
+    padding: 10px 0px 10px 0px;
+    font-family: 'comic sans ms';
+}
+a.Simbol3 {
+    background: rgb(58, 43, 85);
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+a.Simbol3:hover {
+    background: rgb(69, 69, 133);
+    text-decoration: none;
+}
+.daftar {
+    text-align: center;
+}
+.Aplikasi img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    width: 350px;
+}
+.about {
+    text-align: center;
+}
+.PP img {
+    width: 200px ;
+display: block;
+border-radius: 50%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 50px;
+margin-bottom: 30px;
+
+}
+.nama {
+    text-align: center;
+    font-family: 'comic sans ms';
+    font-weight: 800;
+}
+.sosmed {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2em;
+    margin: 15px;
+}
+.sosmed a:hover {
+    background-color: black;
+    color: white;
+}
+.copy {
+    padding: 5px;
+	background-color: #333;
+    color: #eaeaea;
+	text-align: center;
+	font-size: 12px;
+}
+@media screen and (max-width: 991.98px){
+    .Pembuka {
+        width : 90%;
+    }
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+    nav .menu ul li {
+        display: inline-block;
+        flex: none;
+    }
+    section {
+        display: block;
+    }
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+ }
